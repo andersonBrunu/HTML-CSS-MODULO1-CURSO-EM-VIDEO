@@ -2,3 +2,21 @@ Emojoe no html
 
 &lt<  >&gt
 &#x+codigo do emoje la da emojepedia
+
+tag <link:favicon> para adcionar um icone para a pagina
+
+tag <pre> tu que estiver nela vai ser considerado como caractere 
+até mesmo espaçoes em branco.
+
+tag <ins> para texto inserido vai aparecer o sublinado
+
+tag <del> para texto deletado vai aparecer um corte no texto
+
+tag <strong> para Negrito com semantica
+
+tag <em> para texto com enfase texto em italico com semantica  
+
+tag <abbr> para abreciaçõtaes.
+
+tag <q> para Citações simptes
+tag <BlockQuote> para citações em bloco
