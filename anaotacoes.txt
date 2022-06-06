@@ -20,3 +20,20 @@ tag <abbr> para abreciaçõtaes.
 
 tag <q> para Citações simptes
 tag <BlockQuote> para citações em bloco
+
+tag <picture> para carregar imagens dentro do seu corpo
+tag <img> para criar uma imagem na pagina
+tag <suorce media> para deixar a imagem dinamica, 
+carrega uma imagem de acordo com o tamanho da tela
+o source media tem que estar na ordem do menor para o maior
+caso contrario uma ou mais imagens vão bugar e não carregar afetando no visual 
+e no desempenho do site
+exemplo de codigo certo: com o source media da menor para a maior msg de acordo com 
+tamanho da tela definido do atributo max-width
+   <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+
