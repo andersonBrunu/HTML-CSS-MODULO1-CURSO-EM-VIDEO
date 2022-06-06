@@ -5,38 +5,141 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Outras Formatações</title>
+    <link rel="shortcut icon" href="html-icon.ico" type="image/x-icon">
+    <title>Listas</title>
+
+
+
 </head>
 
 <body>
-    <h1>Outras formatações</h1>
+    <h1>Lista de jogos favoritos</h1>
 
-    <h2>Codigo fonte/ pre-formatação</h2>
-    <p>Codigo em java</p>
-    <pre>
-<code>
-for(int i = 0; i <= 10; i++){
-    system.out.println(i);
-}
-</code>
-    </pre>
+    <ul>
+        <li>Nintendinho</li>
+        <ol type="1">
+            <li>Mario Bros</li>
+            <ul type="square">
+                <li>Super Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninka Gaiden</li>
+            <ul type="square">
+                <li>Ninja Gaiden III</li>
+            </ul>
+        </ol>
 
+        <li>Super Nintendo</li>
+        <ol type="1">
+            <li>Super Mario World</li>
+            <li>Donkey Kong</li>
+            <ul type="square">
+                <li>Donkey Kong Counrty III
+                </li>
+                <li>Diddy's Kong Quest</li>
+            </ul>
+        </ol>
 
-    <h2>Citações simples</h2>
+        <li>Playstation</li>
+        <ol type="1">
+            <li>Final Fantasy</li>
+            <ul type="square">
+                <li>Final Fantasy VII</li>
+                <li>Final Fantasy IX</li>
+            </ul>
 
-    <p>
-        Segundo sapão: <q>o animal mais burro é o burro</q>
-    </p>
+            <li>Castlevania</li>
+            <ul type="square">
+                <li>Simphony of the Nigth</li>
+            </ul>
+        </ol>
+    </ul>
 
+    <h2>Trabalhando com Listas</h2>
+    <h3>Listas Ordenadas</h3>
 
-    <h2>Ciotação em bloco</h2>
-    segundo eu: <blockquote> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti sapiente consectetur
-        praesentium, alias maiores similique quibusdam. Laboriosam quaerat modi aperiam magnam! Optio ratione nulla
-        doloremque. Odit dolore natus quasi ipsam.</blockquote>
+    <ol type="i">
+        <li>Acordar</li>
+        <li>Ligar para o João</li>
+        <li>Tomar café</li>
+        <li>Escovar os dentes</li>
+        <li>Ir para a faculdade</li>
+        <li>Almoçar</li>
+        <li>Ir para o trabalho</li>
+        <li>Voltar para casa</li>
+        <li>Jantar</li>
+        <li>Dormir</li>
+    </ol>
 
-    <h2>Abreviações</h2>
+    <h3>Listas não ordenadas</h3>
 
-    <p>Estou aprendendo <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascating Style Sheets">CSS</abbr></p>
+    <ul type="square">
+        <li>Pão</li>
+        <li>Leite</li>
+        <li>Tomate</li>
+        <li>Alface</li>
+        <li>Manteiga</li>
+        <li>Arroz</li>
+        <li>Feijão</li>
+    </ul>
+
+    <h3>Minhas Linguagens Favoritas</h3>
+
+    <ol type="1">
+        <li>Antigas</li>
+        <ol type="a">
+            <li>Clipper</li>
+            <li>Visual Basic</li>
+            <li>Fortran</li>
+            <li>Delphi</li>
+        </ol>
+        <li>Novas</li>
+        <ol type="a" start="5">
+            <li>PHP</li>
+            <li>Python</li>
+            <li>JavaScript</li>
+            <li>Kotlin</li>
+        </ol>
+    </ol>
+
+    <h3>Meus jogos favoritos</h3>
+
+    <ol type="1">
+
+        <li>NES</li>
+        <ul type="square">
+            <li>Mario Bros</li>
+            <ul type="circle">
+                <li>Mario Bros 3</li>
+                <li>Mario: Lost Levels</li>
+            </ul>
+            <li>Ninja Gaiden</li>
+        </ul>
+
+        <li>SNES</li>
+        <ul type="square">
+            <li>Mario</li>
+            <li>Donkey Kong</li>
+        </ul>
+        <li>Playstation</li>
+        <ul type="square">
+            <li>Final Fantasy</li>
+            <li>Castlevania</li>
+        </ul>
+    </ol>
+
+    <h3>Llista de definições</h3>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Linguagem de marcação para criação do conteúdo de um site.</dd>
+
+        <dt>CSS</dt>
+        <dd>Linguagem de marcação para a criação do design de um site.</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagem de programção para a criação de interatividade de um site.
+        </dd>
+    </dl>
 </body>
 
 </html>
