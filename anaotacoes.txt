@@ -36,4 +36,29 @@ tamanho da tela definido do atributo max-width
         <img src="imagens/foto-g.png" alt="Imagem flexivel">
     </picture>
 
+Audios e videos
+
+tag <audio> para adicionar um audio na pagina
+atributos da tag audio:
+	preload: auto, metadata,
+	src: para dizer o local do audio
+	autoplay: indicando que sera execudado automaticamente
+	loop: o audio vai ficar se repetindo automaticamente.
+	source: não é atributo fica no corpo da tag <audio>,
+	exemplo: 
+		<audio atributos aqui> 
+			<source src="caminho do arquivo"></source>:carrega o audio em outro formato,
+			caso o navegador não suporte o formato original do audio
+			obs: quando usa-se o source dentro do audio não pode pode botar o src como atributo do audio
+		</audio>
+
+tag <video> para adicionar um video na pagina
+atributos da tag video:
+	src: como no audio aqui fica o caminho do arquivo de video
+	width: define a largura do video na pagina
+	poster: define uma foto de capa enquanto o video não for executado
+	autoplay: executado automaticamente  assim que a pagina carregar
+	loop: mesma coisa do audio acima.
+	source: do mesmo jeito do audio acima.
+
 
